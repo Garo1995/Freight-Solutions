@@ -1,0 +1,562 @@
+/*========= start-about-company =========*/
+.about-company-fon{
+    background: #1D4462;
+    padding-bottom: 64px;
+}
+.about-company-crumbs{
+    padding-top: 64px;
+    margin-bottom: 10px;
+}
+.about-company-crumbs ul{
+    display: flex;
+    align-items: center;
+}
+.about-company-crumbs ul li{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    position: relative;
+    padding-right: 20px;
+}
+.about-company-crumbs ul li + li:before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -15px;
+    width: 6px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+}
+.about-company-crumbs ul li a{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.about-company-photo{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.find-look-difficult{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 72px;
+}
+.look-difficult-text{
+    max-width: 570px;
+    width: 100%;
+}
+.look-difficult-text p + p{
+    margin-top: 20px;
+}
+.find-look-difficult strong{
+    display: block;
+    max-width: 570px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #282828;
+}
+.about-company-grafik{
+    width: 100%;
+    height: 628px;
+    background: #F5F5F5;
+    padding: 46px 68px 40px 74px;
+}
+.years-for-grafik{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: -90px 0  0 0 ;
+}
+.years-for-grafik div{
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color: #282828;
+
+}
+.years-for-grafik span{
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ABABAB;
+    margin-top: 6px;
+    max-width: 140px;
+    width: 100%;
+}
+.our-mission-deliver{
+    margin-top: 200px;
+}
+.our-mission-deliver h2{
+    color: #282828;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 87px;
+}
+.our-mission-deliver .about-foundation-info {
+    margin-top: 66px;
+}
+.our-mission-deliver .foundation-number {
+    color: #282828;
+}
+.our-mission-deliver .about-foundation-cnt p {
+    color: #282828;
+}
+.our-mission-deliver .about-foundation-cnt-fl span {
+    color: #282828;
+}
+.our-mission-picture{
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    height: 900px;
+}
+#path4502{
+    stroke: #FCC008!important;
+}
+#layer2 circle{
+    stroke: #FCC008;
+}
+/*========= about-company-end =========*/
+
+
+#block-contact{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+#block-contact .about-contact {
+    position: absolute;
+    top: 67px;
+}
+#block-contact .about-company-crumbs ul li{
+    color: #282828;
+}
+#block-contact .about-company-crumbs ul li + li:before{
+    border: solid #282828;
+    border-width: 0 2px 2px 0;
+}
+#block-contact .about-company-crumbs ul li a{
+    color: #282828;
+}
+#block-contact .about-contact h1{
+    color: #282828;
+}
+.cooperation-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 680px;
+}
+.cooperation-contact-flex{
+    display: flex;
+    align-items: flex-start;
+    max-width: 505px;
+    width: 100%;
+    margin-top: 230px;
+}
+.cooperation-contact-phone{
+    max-width: 360px;
+    width: 100%;
+}
+.cooperation-contact-flex span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #282828;
+    display: block;
+    margin-bottom: 12px;
+}
+.cooperation-contact-phone a{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #282828;
+    margin-top: 6px;
+}
+.cooperation-contact-social{
+    margin-left: 60px;
+}
+.cooperation-contact-social ul{
+    display: flex;
+    align-items: center;
+}
+.cooperation-contact-social ul li{
+    margin-right: 10px;
+}
+.contact-map{
+    width: 770px;
+    height: 680px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+
+/*========= contact-end =========*/
+
+.pages-cargo-trans .info-transport-photo{
+    align-items: flex-start;
+
+}
+.about-company-item{
+    position: relative;
+    z-index: 8;
+}
+.about-company-item h1{
+    margin-top: 90px;
+    max-width: 1065px;
+}
+.will-care-issues{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.will-care-issues strong{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #282828;
+}
+.will-care-issues h2{
+    max-width: 780px;
+    width: 100%;
+}
+.remove-margin{
+    margin-top: 0;
+}
+.remove-marg-cont .clicking-policy{
+    margin-left: 17px;
+}
+.photo-stages-of-work{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+.photo-stages-of-work img{
+    object-fit: cover;
+    object-position: center;
+}
+.stages-of-work{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.stages-of-work strong{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #282828;
+}
+.stages-work-info{
+    max-width: 780px;
+    width: 100%;
+}
+.stages-work-info h3{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #282828;
+
+}
+.stages-work-text{
+    margin-top: 46px;
+    border-top: 1px solid #ABABAB;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.stages-work-text:last-child{
+    border-bottom: 1px solid #ABABAB;
+    padding-bottom: 46px;
+}
+.stages-work-text span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #282828;
+}
+.stages-work-text p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ABABAB;
+    opacity: 0.8;
+    max-width: 420px;
+    width: 100%;
+}
+
+/*========= cargo-transport-end =========*/
+
+
+
+@media (max-width: 1399px){
+    .contact-map {
+        width: 650px;
+    }
+}
+@media (max-width: 1199px){
+    .about-company-photo img{
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about-company-grafik img{
+        width: 100%;
+    }
+
+    .our-mission-picture {
+        height: 721px;
+    }
+    .our-mission-picture{
+        object-fit: cover;
+        object-position: center;
+    }
+    .contact-map {
+        width: 495px;
+    }
+    .cooperation-contact-social {
+        margin-left: 10px;
+    }
+    .will-care-issues h2 {
+        max-width: 615px;
+        font-size: 38px;
+        line-height: 52px;
+    }
+    .stages-work-info {
+        max-width: 616px;
+    }
+    .stages-work-text p {
+        max-width: 288px;
+    }
+    .our-mission-deliver h2{
+        font-size: 66px;
+        line-height: 72px;
+    }
+}
+@media (max-width: 991px){
+    .find-look-difficult {
+        margin-top: 60px;
+        flex-direction: column;
+    }
+    .find-look-difficult strong {
+        max-width: 600px;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .look-difficult-text{
+        margin-top: 40px;
+        max-width: 600px;
+    }
+    .about-company-photo {
+        height: 509px;
+    }
+
+    .our-mission-picture {
+        height: 900px;
+        margin-top: 120px;
+    }
+    .our-mission-picture img{
+        object-fit: cover;
+        object-position: center;
+    }
+    .our-mission-deliver {
+        margin-top: 120px;
+    }
+    .our-mission-deliver h2{
+        font-size: 60px;
+        line-height: 64px;
+    }
+    .about-company-graf-scroll{
+        overflow: scroll;
+    }
+    .about-company-grafik {
+        width: 1000px;
+        padding: 20px 20px 20px 20px;
+        height: 560px;
+    }
+    .about-company-graf-scroll::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        background-color: unset;
+
+    }
+    .about-company-graf-scroll::-webkit-scrollbar-thumb {
+        width: 0;
+        background: unset;
+        border-radius: 0;
+        cursor: pointer;
+    }
+    #block-contact .about-contact {
+        position: relative;
+        top: 0;
+    }
+    .cooperation-contact {
+        height: auto;
+        flex-direction: column-reverse;
+        margin-top: 60px;
+        align-items: flex-start;
+        margin-bottom: 100px;
+    }
+    .contact-map {
+        width: 100%;
+        height: 450px;
+        position: relative;
+        right: auto;
+    }
+    .cooperation-contact-flex {
+        display: flex;
+        align-items: flex-start;
+        max-width: 710px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .will-care-issues {
+        flex-direction: column;
+    }
+    .will-care-issues strong{
+        margin-bottom: 60px;
+        display: block;
+    }
+
+    .stages-of-work {
+        margin-top: 150px;
+        margin-bottom: 90px;
+        flex-direction: column;
+    }
+    .stages-work-info{
+        margin-top: 60px;
+    }
+}
+@media (max-width: 767px){
+    .contact-map {
+        height: 370px;
+    }
+    .cooperation-contact-flex {
+        justify-content: space-between;
+    }
+    .photo-stages-of-work{
+        height: 720px;
+    }
+}
+@media (max-width: 576px){
+    .about-company-crumbs {
+        padding-top: 40px;
+    }
+    .about-company-fon {
+        padding-bottom: 44px;
+    }
+    .about-company-photo {
+        height: 446px;
+    }
+    .find-look-difficult {
+        margin-top: 40px;
+    }
+    .find-look-difficult strong {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .look-difficult-text {
+        margin-top: 20px;
+    }
+
+    .find-look-difficult{
+        margin-bottom: 40px;
+    }
+    .our-mission-deliver h1 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .our-mission-deliver .about-foundation-info {
+        margin-top: 45px;
+    }
+    .our-mission-picture {
+        height: 640px;
+        margin-top: 100px;
+    }
+    .about-company-grafik {
+        width: 960px;
+        height: 500px;
+    }
+    .cooperation-contact {
+        margin-top: 44px;
+        margin-bottom: 80px;
+    }
+    .cooperation-contact-flex {
+        flex-direction: column;
+    }
+    .cooperation-contact-social {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .info-transport-photo .about-company-crumbs{
+        display: none;
+    }
+    .about-company-item h1 {
+        margin-top: 120px;
+        text-align: center;
+    }
+    .will-care-issues strong {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 40px;
+    }
+    .will-care-issues h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .photo-stages-of-work{
+        height: 500px;
+    }
+
+    .stages-of-work {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+    .our-mission-deliver h2{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .stages-of-work strong {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .stages-work-info {
+        margin-top: 40px;
+    }
+    .stages-work-info h3 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .stages-work-text {
+        margin-top: 20px;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .stages-work-text p {
+        max-width: 299px;
+        margin-top: 10px;
+    }
+    .stages-work-text:last-child {
+        padding-bottom: 20px;
+    }
+    .remove-marg-cont .clicking-policy {
+        margin-left: 0;
+    }
+}

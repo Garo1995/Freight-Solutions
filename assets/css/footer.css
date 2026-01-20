@@ -1,0 +1,211 @@
+footer{
+    background: #282828;
+}
+.footer-main {
+    padding: 94px 0 90px;
+}
+.footer-menu-flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-logo {
+    display: flex;
+    max-width: 225px;
+    width: 100%;
+    margin-left: -16px;
+}
+.footer-menu-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+.link-style-footer{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-menu-link ul{
+    margin-top: 12px;
+}
+.footer-menu-link ul li{
+    margin-bottom: 6px;
+}
+.footer-menu-link ul li a{
+    transition: 0.3s;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ABABAB;
+    display: block;
+}
+.footer-menu-link ul li a:hover{
+    text-decoration: underline;
+}
+.footer-hrefs-link{
+    margin-left: 207px;
+    margin-top: -4px;
+}
+.footer-hrefs-link a{
+    margin-bottom: 4px;
+    display: block;
+}
+.footer-our-company{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+.our-company-text ul{
+    margin-top: 12px;
+}
+.our-company-text ul li{
+    margin-bottom: 6px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ABABAB;
+}
+.footer-our-company .footer-menu-info{
+    margin-top: 23px;
+}
+.footer-menu-address{
+    max-width: 317px;
+    width: 100%;
+}
+.footer-menu-address p{
+    color: #ABABAB;
+    margin-top: 12px;
+}
+.footer-menu-address a{
+    margin-top: 6px;
+}
+.social-network{
+    margin-left: 146px;
+    min-width: 107px;
+    margin-top: 8px;
+}
+.social-network span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.footer-mail-and-phone a , .social-network a{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ABABAB;
+    display: block;
+}
+.social-network a{
+    margin-top: 15px;
+}
+.footer-mail-and-phone a{
+    margin-top: 6px;
+}
+.privacy-policy{
+    border-top: 1px solid #ABABAB;
+    margin-top: 32px;
+    padding-top: 37px;
+    display: flex;
+    align-items: center;
+}
+.privacy-policy a , .privacy-policy p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ABABAB;
+}
+.privacy-policy p{
+    margin-left: 18px;
+}
+
+@media (max-width: 1199px){
+    .footer-logo {
+        margin-left: -15px;
+    }
+}
+@media (max-width: 991px){
+    .footer-hrefs-link {
+        margin-left: 80px;
+        margin-top: 0;
+    }
+    .social-network {
+        margin-left: 18px;
+        margin-top: 8px;
+    }
+}
+@media (max-width: 768px){
+    .footer-menu-info {
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 0;
+        flex-direction: column;
+        max-width: 280px;
+        width: 100%;
+    }
+    .footer-hrefs-link {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .footer-our-company {
+        margin-top: 40px;
+    }
+    .footer-our-company .footer-menu-info {
+        margin-top: 0;
+    }
+    .social-network {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .footer-logo {
+        margin-left: -15px;
+        max-width: 141px;
+    }
+    .footer-menu-address a {
+        margin-top: 0;
+    }
+    .privacy-policy {
+        margin-top: 35px;
+        padding-top: 35px;
+    }
+    .footer-main {
+        padding: 94px 0 35px;
+    }
+}
+@media (max-width: 576px){
+    .footer-main {
+        padding: 80px 0 18px;
+    }
+    .footer-menu-flex {
+        flex-direction: column;
+    }
+    .footer-logo {
+        margin: 0 auto 48px;
+    }
+
+    .our-company-text{
+        margin-top: 40px;
+    }
+    .privacy-policy a, .privacy-policy p {
+        font-size: 9px;
+        line-height: 18px;
+    }
+    .privacy-policy {
+        margin-top: 35px;
+        padding-top: 18px;
+    }
+    .footer-our-company {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+        position: relative;
+        padding-bottom: 90px;
+    }
+    .social-network {
+        position: absolute;
+        bottom: 0;
+    }
+}
